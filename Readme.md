@@ -4,7 +4,7 @@
 
 # Fuzzing on UEFI with SIMICS and TSFSS
 
-Fuzzing on UEFI with SIMICS and TSFSS
+This project aims to enable harness generation and fuzzing for protocols in edk2.
 
 ## Tools
 We used following tools in our projects

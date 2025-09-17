@@ -1,0 +1,9 @@
+[Protocols]
+  // EFI_IP4_PROTOCOL
+  gEfiUsbIoProtocolGuid:LocateDevicePath
+  gEfiUsbIoProtocolGuid:LocateHandleBuffer
+  gEfiUsbIoProtocolGuid:UsbGetDeviceDescriptor
+  gEfiUsbIoProtocolGuid:UsbGetInterfaceDescriptor
+  gEfiUsbIoProtocolGuid:UsbGetEndpointDescriptor
+  gEfiUsbIoProtocolGuid:OpenProtocol
+  gEfiUsbIoProtocolGuid:HandleProtocol

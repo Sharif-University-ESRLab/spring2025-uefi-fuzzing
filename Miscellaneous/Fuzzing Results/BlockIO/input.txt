@@ -1,0 +1,5 @@
+[Protocols]  gEfiBlockIoProtocolGuid:Reset
+  gEfiBlockIoProtocolGuid:Media
+  gEfiBlockIoProtocolGuid:ReadBlocks
+  gEfiBlockIoProtocolGuid:WriteBlocks
+  gEfiBlockIoProtocolGuid:FlushBlocks

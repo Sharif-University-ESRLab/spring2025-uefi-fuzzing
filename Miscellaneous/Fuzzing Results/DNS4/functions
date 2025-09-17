@@ -1,0 +1,10 @@
+[Protocols]
+  gEfiDns4ProtocolGuid:GetModeData;
+  gEfiDns4ProtocolGuid:Configure;
+  gEfiDns4ProtocolGuid:HostNameToIp;
+  gEfiDns4ProtocolGuid:IpToHostName;
+  gEfiDns4ProtocolGuid:GeneralLookUp;
+  gEfiDns4ProtocolGuid:UpdateDnsCache;
+  gEfiDns4ProtocolGuid:Poll;
+  gEfiDns4ProtocolGuid:Cancel;
+

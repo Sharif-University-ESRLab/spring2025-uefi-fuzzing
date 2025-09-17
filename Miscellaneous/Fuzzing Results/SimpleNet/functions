@@ -1,0 +1,16 @@
+[Protocols]
+  // EFI_IP4_PROTOCOL
+  gEfiSimpleNetworkProtocolGuid:Start
+  gEfiSimpleNetworkProtocolGuid:Stop
+  gEfiSimpleNetworkProtocolGuid:Initialize
+  gEfiSimpleNetworkProtocolGuid:Reset
+  gEfiSimpleNetworkProtocolGuid:Shutdown
+  gEfiSimpleNetworkProtocolGuid:ReceiveFilters
+  gEfiSimpleNetworkProtocolGuid:StationAddress
+  gEfiSimpleNetworkProtocolGuid:Statistics
+  gEfiSimpleNetworkProtocolGuid:MCastIpToMac
+  gEfiSimpleNetworkProtocolGuid:NvData
+  gEfiSimpleNetworkProtocolGuid:GetStatus
+  gEfiSimpleNetworkProtocolGuid:Transmit
+  gEfiSimpleNetworkProtocolGuid:Receive
+

@@ -4,58 +4,35 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for comes here.
-
+Fuzzing on UEFI with SIMICS and TSFSS
 
 ## Tools
-In this section, you should mention the hardware or simulators utilized in your project.
-- Qemu
-- Gem5
-- ESP32
-- Raspberry Pi 3B
-- Temperature Sensor
+We used following tools in our projects
+- Simics
+- edk2
+- libAFL
+- TSFFS
 
 
 ## Implementation Details
 
-In this section, you will explain how you completed your project. It is recommended to use pictures to demonstrate your system model and implementation.
+Our project is heavily based on (FuzzUEr)[https://github.com/BreakingBoot/FuzzUEr]. It is a harness generation and fuzzing platform based on TSFFS.
 
+You can find the completed documations on design of the proejct under the Document folder
+<img width="861" height="511" alt="image" src="https://github.com/user-attachments/assets/585952c8-8b06-44fa-addd-a5180073552f" />
+_This image is from FuzzUEr project._
 
-Feel free to use sub-topics for your projects. If your project consists of multiple parts (e.g. server, client, and embedded device), create a separate topic for each one.
 
 ## How to Run
 
-In this part, you should provide instructions on how to run your project. Also if your project requires any prerequisites, mention them. 
-
-#### Examples:
-#### Build Project
-Your text comes here
-```bash
-  build --platform=OvmfPkg/OvmfPkgX64.dsc --arch=X64 --buildtarget=RELEASE --tagname=GCC5
-```
-
-#### Run server
-Your text comes here
-```bash
-  pyhton server.py -p 8080
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `-p` | `int` | **Required**. Server port |
-
-
-
-## Results
-In this section, you should present your results and provide an explanation for them.
-
-Using image is required.
+The complete instructions on running project is in Readme file under the Code folder.
 
 ## Related Links
 Some links related to your project come here.
  - [EDK II](https://github.com/tianocore/edk2)
- - [ESP32 Pinout](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
- - [Django Doc](https://docs.djangoproject.com/en/5.0/)
+ - [TSFFS](https://github.com/intel/tsffs)
+ - [Simics](https://www.intel.com/content/www/us/en/developer/articles/tool/simics-simulator.html)
+ - [FuzzUEr](https://www.ndss-symposium.org/ndss-paper/fuzzuer-enabling-fuzzing-of-uefi-interfaces-on-edk-2/)
 
 
 ## Authors
